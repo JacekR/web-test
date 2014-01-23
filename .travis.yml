@@ -1,1 +1,1 @@
-mvn compile
+after_script: mvn compile
