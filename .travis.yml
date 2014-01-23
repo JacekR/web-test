@@ -1,4 +1,4 @@
-script: mvn compile
+script: mvn package
 after_script: 
 - cd target 
 - ls
