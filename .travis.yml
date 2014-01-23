@@ -1,2 +1,5 @@
 script: mvn compile
-after_script: mvn package
+after_script: 
+mvn package
+cd targer
+ls
