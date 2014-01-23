@@ -1,3 +1,5 @@
 script: mvn compile
-after_script: ls
+after_script: 
+- cd target 
+- ls
 
