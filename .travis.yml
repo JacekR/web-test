@@ -1,3 +1,2 @@
-script: mvn compile
-after_script: ./scripts/script.sh
+script: ./scripts/script.sh
 
