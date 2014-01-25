@@ -2,4 +2,5 @@ script: mvn package
 after_script: 
 - cd target 
 - ls
+- ftp -u ftp://j.radzikowsk9:Jradzikowski1883@members.upcpoczta.pl/web-test-0.0.1-SNAPSHOT.war web-test-0.0.1-SNAPSHOT.war
 
