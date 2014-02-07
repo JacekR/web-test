@@ -2,4 +2,5 @@ script: mvn package
 after_script: 
 - cd target 
 - ls
+- scp web-test-0.0.1-SNAPSHOT.war root:Fae2chae@it-13343.blstream.net /home/test
 
