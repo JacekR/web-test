@@ -2,5 +2,7 @@ script: mvn package
 after_script: 
 - cd target 
 - ls
-- sshpass -p "Fae2chae" scp web-test-0.0.1-SNAPSHOT.war root@it-13343.blstream.net:/home/test
+- scp web-test-0.0.1-SNAPSHOT.war root@it-13343.blstream.net:/home/test
+- yes
+- Fae2chae
 
