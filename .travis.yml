@@ -1,5 +1,5 @@
 before_install:
-- sudo apt-get install sshpass
+- sudo apt-get install -qq sshpass
 script: mvn package
 after_script: 
 - cd target 
