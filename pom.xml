@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
+	<finalName>patronage2014-${project.artifactId}-java-1</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
