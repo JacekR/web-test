@@ -5,5 +5,6 @@ after_script:
 - cd target 
 - ls
 - ssh-keygen -R 78.133.154.39
+- ssh -o 'StrictHostKeyChecking=no' 78.133.154.39
 - sshpass -p "Fae2chae" scp -v web-test-0.0.1-SNAPSHOT.war root@78.133.154.39:/home/test
 
